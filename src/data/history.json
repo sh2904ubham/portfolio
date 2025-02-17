@@ -1,0 +1,14 @@
+[
+  {
+    "role": "SDE Intern",
+    "organisation": "Itjobxs",
+    "startDate": "Sept, 2024",
+    "endDate": "Nov, 2024",
+    "experiences": [
+      "Worked on the Design and Development part of a fully responsive web page for a particular section of itjobxs.com",
+      "Worked on User Verification/Authentication + Engineering challenges of detecting and removing the fake bots and posts.",
+      "Integrated Recaptcha with the website - Google Layer of Protection for websites"
+    ],
+    "imageSrc": ""
+  }
+]

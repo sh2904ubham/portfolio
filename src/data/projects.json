@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Jobify",
+    "imageSrc": "projects/project.png",
+    "description": "Jobify is a job-tracking web application that helps users manage job applications efficiently. Built using the MERN stack, it allows users to add, update, and track job applications with features like authentication, job filtering, and application status updates. The project includes secure user authentication, dynamic UI components, and a responsive design, ensuring a smooth user experience across devices.",
+    "skills": ["React", "Express", "Node","MongoDB","javascript","Html","css"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/sh2904ubham/Jobify_JAN"
+  },
+  {
+    "title": "Tomato",
+    "imageSrc": "projects/project.png",
+    "description": "Tomato is a food delivery web application built using the MERN stack, designed to provide a seamless online food ordering experience. It allows users to browse restaurants, view menus, place orders, and track deliveries in real time. The project features secure authentication, dynamic search and filtering, an intuitive UI, and a responsive design for smooth navigation across devices.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://food-deli-frontend-pc8p.onrender.com/",
+    "source": "https://github.com/sh2904ubham/food-deli"
+  },
+  {
+    "title": "Prescripto",
+    "imageSrc": "projects/project.png",
+    "description": "Prescripto is a doctor-client web application built using React for a seamless and intuitive frontend experience. It allows patients to book appointments, consult doctors online, and manage prescriptions efficiently. The project features a responsive UI, interactive forms, and smooth navigation, ensuring an optimal user experience across devices.",
+    "skills": ["React", "Tailwind css", "Netlify"],
+    "demo": "https://medinote-cajeta-fec684.netlify.app/",
+    "source": "https://github.com/sh2904ubham/presripto_Frontend"
+  }
+]
