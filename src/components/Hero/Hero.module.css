@@ -9,6 +9,11 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px);
 }
 
 .content {
@@ -17,6 +22,7 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  transition: color 0.3s ease;
 }
 
 .title {
@@ -31,12 +37,28 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.5s ease;
+}
+
+.title:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 150, 1) 70%,
+    rgba(255, 255, 255, 0) 120%
+  );
 }
 
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.description:hover {
+  opacity: 1;
 }
 
 .contactBtn {
@@ -48,16 +70,27 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contactBtn:hover {
+  background-color: var(--color-accent);
+  transform: translateY(-5px);
 }
 
 .heroImg {
   width: 50%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  transition: transform 0.3s ease;
+  background-color: #e0f7fa; /* Light blue background */
+}
+
+.heroImg:hover {
+  transform: scale(1.05);
 }
 
 @keyframes floating {
@@ -77,13 +110,13 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+  transition: opacity 0.3s ease;
 }
 
 .bottomBlur {
@@ -91,13 +124,13 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+  transition: opacity 0.3s ease;
 }
 
 @media screen and (max-width: 830px) {
@@ -107,5 +140,23 @@
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 150px; /* Adjusted size for smaller screens */
+    height: 150px; /* Maintains the circular shape */
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .contactBtn {
+    font-size: 26px;
+    padding: 14px 22px;
   }
 }
